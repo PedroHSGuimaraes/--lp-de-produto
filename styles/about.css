@@ -1,0 +1,15 @@
+#about {
+  background-color: var(--surface-color);
+  opacity: 0;
+  animation: fadeIn 1s forwards 0.3s;
+
+  & .even-columns {
+    gap: 2rem;
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
